@@ -9,21 +9,18 @@
 # This will be the first part of the title tag for your site
 # <title> {{site.name}} </title>
 # ============================================================
-name: "NKD - Boilerplate for HTML5/SCSS projects."
+name: "Mário Nzualo"
 
 # Add your twitter handle (appears in site footer)
-twitter: "@mrmrs_"
-
-# Add your email (appears in site footer)
-email: hi@mrmrs.cc
+twitter: "@marionzualo"
 
 # Populates the meta description for the site. Should be under 150 characters for best SEO results.
 # ============================================================
-description: "NKD - Boilerplate for building responsive jekyll sites."
+description: "Mário Nzualo's little corner on the web"
 
 # Owner (organization or individual) of site content - You'll want to change this from mrmrs :)
 # ============================================================
-author: "mrmrs"
+author: "marionzualo"
 
 # Change this to your production URL
 # ============================================================

@@ -3,24 +3,35 @@ layout: default
 ---
 
 <main class="pa3">
-  <h1 class="f1 mt0 mb3">NKD</h1>
-  <h2 class="f3 mt0 mb0">Hello World!</h2>
-  <p class="measure lh-copy">This is a fully responsive jekyll website. It's just some scaffolding  if you want to start your own jekyll site.</p>
-  <p class="measure lh-copy">Edit or add posts in the _posts/ directory</p>
-  <p class="measure lh-copy">Edit or add layouts in the _layouts/ directory</p>
+  <h1 class="f1 mt0 mb3">Mário Nzualo</h1>
+  <p class="measure lh-copy">Hei!</p>
+  <p class="measure lh-copy">I'm <span>Mário<span> and I build systems for the web.</p>
+  <p class="measure lh-copy">I am a Software Engineer at <a href="https://www.seedrs.com">Seedrs</a></p>
+  <p class="measure lh-copy">
+    On my spare time you can usually find me tinkering with side projects, dancing, reading and writing.
+  </p>
+  <p class="measure lh-copy">
+  You can find some of the things I occasionally write at my <a href="http://blog.marionzualo.com">blog</a>.
+  </p>
+  <h2 class="f3 mt0 mb0">Featured Projects</h2>
+  <ul class="list-reset pl0 ml0 lh-copy">
+    <li>
+      <p class="measure lh-copy"><span>Ambrósio</span>, <a href="http://ambrosio.co">ambrosio.co</a></p>
+      <p class="measure lh-copy">A list of some of my favourite places to eat and drink in Lisbon.</p>
+    </li>
+    <li>
+      <p class="measure lh-copy"><span>Meio Por Cento</span>, <a href="http://meioporcento.pt">meioporcento.pt</a></p>
+      <p class="measure lh-copy">A directory of all the non profits that are eligible for donations of 0.5% of the income tax in Portugal</p>
+    </li>
+  </ul>
+  <h2 class="f3 mt0 mb0">Elsewhere</h2>
+  <ul class="list-reset pl0 ml0 lh-copy">
+    <li><a href="https://twitter.com/marionzualo">Twitter</a></li>
+    <li><a href="https://github.com/marionzualo">GitHub</a></li>
+    <li><a href="https://www.instagram.com/marionzualo/">Instagram</a></li>
+    <li><a href="https://pinboard.in/u:marionzualo">Pinboard</a></li>
+  </ul>
 </main>
 <footer class="pa3">
-{% if site.posts %}
-  <h2 class="f6 fw6">Posts</h2>
-  <ul class="list-reset pl0 ml0 lh-copy">
-    {% for post in site.posts %}
-      <li>
-        <a href="{{ post.url }}" title="{{post.title}}">
-          {{ post.title }}
-        </a>
-      </li>
-    {% endfor %}
-  </ul>
-{% endif %}
-<small>Copyright 2016</small>
+  <small>Copyright 2016</small>
 </footer>
