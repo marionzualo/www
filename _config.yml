@@ -24,7 +24,7 @@ author: "marionzualo"
 
 # Change this to your production URL
 # ============================================================
-url: "http://localhost:4000"
+url: "https://marionzualo-site.herokuapp.com"
 
 # Publish future posts or not option.
 # ============================================================
