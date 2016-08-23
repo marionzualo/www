@@ -30,11 +30,16 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
+    open4 (1.3.4)
     rack (1.6.4)
     rack-jekyll (0.4.5)
       jekyll (>= 1.3)
       listen (>= 1.3)
       rack (~> 1.5)
+    rake (10.4.2)
+    rake-remote_task (2.4.0)
+      open4 (~> 1.0)
+      rake (>= 0.8, < 11.0)
     rb-fsevent (0.9.7)
     rb-inotify (0.9.7)
       ffi (>= 0.5.0)
@@ -50,3 +55,5 @@ DEPENDENCIES
   hawkins (~> 2.0.3)
   jekyll (~> 3.1.6)
   rack-jekyll (~> 0.4.5)
+  rake
+  rake-remote_task
